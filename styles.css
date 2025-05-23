@@ -1,0 +1,94 @@
+body{
+    background-image: url("img/descarga.png");
+    background-size: cover;       
+    background-position: center;  
+    /* background-repeat: n;  */
+    font-family: 'Segoe UI';
+}
+
+.form {
+    height: 90vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+
+
+.contenedor{
+    border: 1px solid #c9cdd1 ; 
+    padding: 40px 50px;
+    background-color: rgba(126, 114, 141, 0.3); 
+    backdrop-filter: blur(20px);              
+    border-radius: 10px;  
+}
+
+
+
+#titulo{
+    color: white;
+    text-align: center;  
+}
+
+.datos {
+    color:white;
+    border: 1px solid #c9cdd1;                
+    background-color:transparent;             
+    border-radius: 6px;                  
+    /* padding: 10px 40px;   Paddin de los placeholder */
+    padding:10px 20px ;
+    font-size: 16px;                      
+    width: 100%;                          
+    box-sizing: border-box;                
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.datos:focus {
+    border-color: #f5f1f1;                
+    outline: none;                        
+    box-shadow: 0 0 6px rgb(251, 251, 251); 
+}
+
+.datos::placeholder{
+    color: #c1c7cd;
+}
+
+.item{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+.item button{
+    border-radius: 10px;
+    padding: 6px 20px;
+    border-style: inherit;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color:#a62cde;
+}
+
+.item button:hover{
+    color: white;
+    background-color:#a62cde;
+    box-shadow: 0 0 2px rgb(238, 235, 235); 
+}
+
+.item a{
+    color: #f5f1f1;
+    text-decoration: none;
+}
+
+.item a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
